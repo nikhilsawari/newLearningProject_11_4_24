@@ -1,5 +1,6 @@
-print("Hello world")
-print(2*222)
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
 
 num = 12
 print("num is "+str(num))
@@ -45,3 +46,54 @@ l[2:9:2]
 print(l[2:9:2])
 print(l[::2])
 print(l[:2:2])
+
+print('Dictionary----------------------')
+my_dict = {"key1":"value1","key2":"value2"}
+print(my_dict)
+
+
+print(my_dict['key2'])
+my_dict['key2']=123
+print(my_dict)
+d = {}
+# Create a new key through assignment
+d['animal'] = 'Dog'
+print(d)
+
+new_list = [1,2,3,4,5,6,7,8]
+for numbers in new_list:
+    if numbers < 5:
+        print(numbers,end=' ')
+
+while numbers in new_list:
+    if numbers < 5:
+        print(new_list)
+
+Method -
+def fib(n):    # write Fibonacci series less than n
+...     """Print a Fibonacci series less than n."""
+...     a, b = 0, 1
+...     while a < n:
+...         print(a, end=' ')
+...         a, b = b, a+b
+...     print()
+...
+
+
+Object creation in python -
+1.
+__init__ inbuilt function in all class for initialization
+Self is like this. in java
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
+
+2.
+p1 = MyClass()
+print(p1.x)
