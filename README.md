@@ -79,7 +79,6 @@ def fib(n):    # write Fibonacci series less than n
 ...     print()
 ...
 
-From <https://docs.python.org/3/tutorial/controlflow.html#defining-functions> 
 
 Object creation in python -
 1.
@@ -98,5 +97,3 @@ print(p1.age)
 2.
 p1 = MyClass()
 print(p1.x)
-
-![image](https://github.com/user-attachments/assets/2f8b80c8-026e-4f78-82d3-978b309cff34)
